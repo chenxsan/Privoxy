@@ -8,4 +8,4 @@ FILTER: backlinkwatch 关闭弹出窗口
 s|popup\(windowname\)|gotohell\(\)|
 
 FILTER: block-iciba
-s|</head>|<style>.header .head-ad,\#side_bar,.vRecomm,\#iciba_common_top,\#ezfm,.dict_nav,.pendant,.search_foot,\#footer,.header_ad,\#Jihuajiyi,.head_ad4,.header_nav{display:none !important;}</style>$0|
+s|</head>|<style>.header .head-ad,\#side_bar,.vRecomm,\#iciba_common_top,\#ezfm,.dict_nav,.pendant,.search_foot,\#footer,.header_ad,\#Jihuajiyi,.head_ad4,.header_nav{display:none !important;}.header{top:0 !important;}</style>$0|
