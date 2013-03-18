@@ -1,5 +1,5 @@
 FILTER: block-baidu 屏蔽百度广告
-s|</head>|<style type="text/css">table.ec_pp_f,\#content_right,.ec_pp_f+br,[class~=EC_mr15]{display:none;}</style></head>|
+s|</head>|<style type="text/css">table.ec_pp_f,\#content_right,.ec_pp_f+br,[class~=EC_mr15],.wgt-ads.qbbanner,.wgt-ads,.info-left-ad,\#aside-ads-container,\#bottom-ads-container{display:none;}</style></head>|
 
 FILTER: block-promote
 s|</head>|<style type="text/css">div.promoted-account,div.promoted-tweet{display:none !important;}</style>$0|
