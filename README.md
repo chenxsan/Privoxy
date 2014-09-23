@@ -13,3 +13,6 @@ Privoxy 配置文件
 
 其中 easy* 列表根据[脚本](http://andrwe.org/scripting/bash/privoxy-blocklist)自动生成，[具体列表](https://easylist.adblockplus.org/en/)请根据自己情况补充，user.action 与 user.filter 用于个人定制一些规范。
 
+## openSUSE 下用法
+
+将 README.md 以外的文件下载拷贝到 /etc/privoxy/ 或 /var/lib/privoxy/etc/ 目录下即可。
