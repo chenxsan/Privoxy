@@ -363,6 +363,9 @@ actionsfile match-all.action # Actions that are applied to all sites and maybe o
 actionsfile default.action   # Main actions file
 actionsfile easylistgermany.script.action
 actionsfile easylist.script.action
+actionsfile easyprivacy.script.action
+actionsfile easylist_noelemhide.script.action
+actionsfile easylistchina.script.action
 actionsfile user.action      # User customizations
 #
 #  2.5. filterfile
@@ -410,6 +413,9 @@ actionsfile user.action      # User customizations
 filterfile default.filter
 filterfile easylistgermany.script.filter
 filterfile easylist.script.filter
+filterfile easyprivacy.script.filter
+filterfile easylist_noelemhide.script.filter
+filterfile easylistchina.script.filter
 filterfile user.filter      # User customizations
 #
 #  2.6. logfile
