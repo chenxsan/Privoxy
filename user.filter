@@ -75,3 +75,4 @@
 #################################################################################
 FILTER: blockBaiduAd 去除百度推广广告
 s|</head>|<style type=text/css>\#content_left>table,[id*='00'],\#ec_im_container,\#ec_im_container+div,.ad-block,.EC_zwd_table{display: none !important;}</style></head>|g
+s|</body><script.*</script></html>|</body></html>|g
