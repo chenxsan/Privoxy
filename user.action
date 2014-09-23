@@ -67,6 +67,7 @@ myfilters   = +filter{html-annoyances} +filter{js-annoyances} +filter{all-popups
 # Allow ads for selected useful free sites:
 #
 allow-ads   = -block -filter{banners-by-size} -filter{banners-by-link}
+{}
 #... etc.  Customize to your heart's content.
 
 ## end aliases ########################################################
@@ -195,3 +196,5 @@ www.example.com/nasty-ads/sponsor.gif
 #
 #{+block{Facebook "like" and similar tracking URLs.}}
 #www.facebook.com/(extern|plugins)/(login_status|like(box)?|activity|fan)\.php
+{+filter{blockBaiduAd}}
+.baidu.com
