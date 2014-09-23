@@ -4,6 +4,15 @@ Privoxy
 Privoxy 配置文件
 
 
-这是一份我自己使用的 Privoxy 配置文件库，包括 user.action 与 user.filter 两个文件。
+这是一份我自己使用的 Privoxy 配置文件库，包括以下文件：
 
-如果你有需要，可以直接下载覆盖。有自己写些规则的话，也可以考虑 pull 哦。
+1. config - 配置文件
+2. user.action 
+3. user.filter
+4. easylist.script.action
+5. easylist.script.filter
+6. easygermany.script.action
+7. easygermany.script.action
+
+其中 easy* 列表根据[脚本](http://andrwe.org/scripting/bash/privoxy-blocklist)自动生成，user.action 与 user.filter 用于个人定制一些规范。
+
