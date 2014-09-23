@@ -198,3 +198,6 @@ www.example.com/nasty-ads/sponsor.gif
 #www.facebook.com/(extern|plugins)/(login_status|like(box)?|activity|fan)\.php
 {+filter{blockBaiduAd}}
 .baidu.com
+
+{+block{土豆网视频广告}}
+[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/youku/*
