@@ -196,8 +196,17 @@ www.example.com/nasty-ads/sponsor.gif
 #
 #{+block{Facebook "like" and similar tracking URLs.}}
 #www.facebook.com/(extern|plugins)/(login_status|like(box)?|activity|fan)\.php
+
+# 清理百度推广广告
 {+filter{blockBaiduAd}}
 .baidu.com
 
+# 清理有道词典广告
+{+filter{blockYoudaoAd}}
+dict.youdao.com
+
 {+block{土豆网视频广告}}
 [0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}/youku/*
+
+{+block{有道词典广告}}
+.ydstatic.com/.*product=adpublish.*
