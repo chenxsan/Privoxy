@@ -205,9 +205,14 @@ www.example.com/nasty-ads/sponsor.gif
 {+filter{blockYoudaoAd}}
 dict.youdao.com
 
+# 垃圾采集站
+{+block{一些采集别人内容打自己广告的垃圾站点}}
+.111cn.net
+
 {+block{土豆网视频广告}}
 27.221.31.12/youku/.*\.flv$
 27.221.48.215/youku/.*\.flv$
+119.167.128.13/youku/.*\.flv$
 119.167.128.38/youku/.*\.flv$
 
 {+block{有道词典广告}}
