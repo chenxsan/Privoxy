@@ -205,6 +205,10 @@ www.example.com/nasty-ads/sponsor.gif
 {+filter{blockYoudaoAd}}
 dict.youdao.com
 
+# 清理不卡的推广广告
+{+filter{blockBaiduCproAd}}
+.bukade.com
+
 # 垃圾采集站
 {+block{一些采集别人内容打自己广告的垃圾站点}}
 .111cn.net

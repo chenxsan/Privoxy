@@ -79,3 +79,9 @@ s|</body><script.*</script></html>|</body></html>|g
 
 FILTER: blockYoudaoAd 去除有道词典广告
 s|</head>|<style type=text/css>\#ads,\#topImgAd{display: none !important;}</style></head>|g
+
+FILTER: blockTwitterPromoted 去除 twitter 推广
+s|</head>|<style type=text/css>\.promoted-tweet{display: none !important;}</style></head>|g
+
+FILTER: blockBaiduCproAd 去除百度联盟广告
+s|</head>|<style type=text/css>[id^="cproIframe"]{display: none !important;}</style></head>|g
