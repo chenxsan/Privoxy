@@ -243,6 +243,11 @@ dict.youdao.com
 182.118.6.111/youku/.*\.flv$
 182.118.6.?*/youku/.*\.flv$
 
+{-block}
+27.221.48.183
+119.188.38.14
+119.188.38.47
+
 {+block{搜狐视频广告}}
 175.43.20.118/sohu\.vodnew\.lxdns\.com.*
 175.43.124.167/sohu\.vodnew\.lxdns\.com.*
@@ -256,3 +261,6 @@ dict.youdao.com
 
 {-block{arcgis}}
 .arcgis.com
+
+{+block{百度联盟广告}}
+ubmcmm.baidustatic.com
