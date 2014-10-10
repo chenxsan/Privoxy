@@ -224,7 +224,6 @@ dict.youdao.com
 {+block{优酷视频广告}}
 27.221.31.18/youku/.*\.flv$
 
-27.221.48.?*/youku/.*\.flv$
 
 36.250.10.7/sohu.*\.flv$
 
@@ -232,25 +231,18 @@ dict.youdao.com
 61.158.246.12/youku/.*\.flv$
 61.158.246.49/youku/.*\.flv$
 61.158.246.52/youku/.*\.flv$
-61.158.246.?*/youku/.*\.flv$
 
 119.167.128.16/youku/.*\.flv$
 119.167.128.37/youku/.*\.flv$
-119.167.128.?*/youku/.*\.flv$
 
-119.167.129.?*/youku/.*\.flv$
 
-119.188.38.?*/youku/.*\.flv$
 
 182.118.6.78/youku/.*\.flv$
 182.118.6.110/youku/.*\.flv$
 182.118.6.111/youku/.*\.flv$
-182.118.6.?*/youku/.*\.flv$
 
 {-block}
-27.221.48.183
-119.188.38.14
-119.188.38.47
+ads.twitter.com
 
 {+block{搜狐视频广告}}
 175.43.20.118/sohu\.vodnew\.lxdns\.com.*
@@ -268,3 +260,7 @@ dict.youdao.com
 
 {+block{百度联盟广告}}
 ubmcmm.baidustatic.com
+
+{+block{crunchyroll}}
+.crunchyroll.com/.*LogAdSlot.*
+.crunchyroll.com/vast\?type=website_house
