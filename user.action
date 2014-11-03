@@ -209,6 +209,16 @@ dict.youdao.com
 {+filter{blockBaiduCproAd}}
 .bukade.com
 
+# 清理乐视视频广告
+{+block{乐视广告}}
+36.250.7.161
+36.250.7.162
+36.250.7.163
+36.250.7.168
+36.250.7.169
+36.250.66.35
+36.250.66.41
+
 # 垃圾采集站
 {+block{一些采集别人内容打自己广告的垃圾站点}}
 .111cn.net
@@ -220,6 +230,11 @@ dict.youdao.com
 119.167.128.13/youku/.*\.flv$
 119.167.128.38/youku/.*\.flv$
 
+# 屏蔽迅雷看看视频广告
+{+block{kankan}}
+20141025.float.sandai.net
+
+
 # 屏蔽优酷的视频广告，但目前还有黑屏倒计时的问题
 {+block{优酷视频广告}}
 27.221.31.18/youku/.*\.flv$
@@ -229,19 +244,24 @@ dict.youdao.com
 
 61.158.246.11/youku/.*\.flv$
 61.158.246.12/youku/.*\.flv$
+61.158.246.15/youku/.*\.flv$
+61.158.246.45/youku/.*\.flv$
 61.158.246.49/youku/.*\.flv$
 61.158.246.52/youku/.*\.flv$
 
 119.167.128.16/youku/.*\.flv$
+119.167.128.25/youku/.*\.flv$
+119.167.128.31/youku/.*\.flv$
 119.167.128.37/youku/.*\.flv$
 
+119.188.38.15/youku/.*\.flv$
 
-
+182.118.6.16/youku/.*\.flv$
 182.118.6.78/youku/.*\.flv$
 182.118.6.110/youku/.*\.flv$
 182.118.6.111/youku/.*\.flv$
 
-{-block}
+{-block{Some site}}
 ads.twitter.com
 
 {+block{搜狐视频广告}}
@@ -260,7 +280,12 @@ ads.twitter.com
 
 {+block{百度联盟广告}}
 ubmcmm.baidustatic.com
+cpro.baidustatic.com
 
 {+block{crunchyroll}}
 .crunchyroll.com/.*LogAdSlot.*
 .crunchyroll.com/vast\?type=website_house
+
+{+block{}}
+iface.iqiyi.com/api/getNewAdInfo.*
+ifacelog.iqiyi.com/adPingBacks
