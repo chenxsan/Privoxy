@@ -15,7 +15,7 @@ Privoxy 配置文件
 
 ## openSUSE 下用法
 
-将 README.md 以外的文件下载拷贝到 /etc/privoxy/ 或 /var/lib/privoxy/etc/ 目录下即可。
+将 README.md 以外的文件下载拷贝到 _/etc/privoxy/_ 或 _/var/lib/privoxy/etc/_ 目录下即可。
 
 ## 关于规则的说明
 
