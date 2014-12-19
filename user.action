@@ -255,23 +255,28 @@ dict.youdao.com
 61.158.246.49/youku/.*\.flv$
 61.158.246.50/youku/.*\.flv$
 61.158.246.52/youku/.*\.flv$
+61.158.246.54/youku/.*\.flv$
 
 119.167.128.16/youku/.*\.flv$
 119.167.128.25/youku/.*\.flv$
 119.167.128.31/youku/.*\.flv$
 119.167.128.37/youku/.*\.flv$
+119.167.128.201/youku/.*\.flv$
 
 119.167.129.11/youku/.*\.flv$
+119.167.129.21/youku/.*\.flv$
 
 119.188.38.15/youku/.*\.flv$
 119.188.38.24/youku/.*\.flv$
 
+182.118.6.13/youku/.*\.flv$
 182.118.6.16/youku/.*\.flv$
 182.118.6.21/youku/.*\.flv$
 182.118.6.48/youku/.*\.flv$
 182.118.6.71/youku/.*\.flv$
 182.118.6.74/youku/.*\.flv$
 182.118.6.78/youku/.*\.flv$
+182.118.6.80/youku/.*\.flv$
 182.118.6.107/youku/.*\.flv$
 182.118.6.110/youku/.*\.flv$
 182.118.6.111/youku/.*\.flv$
@@ -281,11 +286,39 @@ dict.youdao.com
 ads.twitter.com
 
 {+block{搜狐视频广告}}
+36.250.10.3/sohu.*
+36.250.10.10/sohu.*
+
+60.28.168.53/sohu.*
+
+60.217.245.79/sohu.*
+
+101.71.4.8/sohu.*
+101.71.4.18/sohu.*
+
+101.71.5.6/sohu.*
+101.71.5.9/sohu.*
+101.71.5.10/sohu.*
+101.71.5.11/sohu.*
+101.71.5.13/sohu.*
+101.71.5.14/sohu.*
+101.71.5.15/sohu.*
+101.71.5.16/sohu.*
+101.71.5.17/sohu.*
+
+121.29.0.16/sohu.*
+
+122.141.224.203/sohu.*
+122.141.224.212/sohu.*
+
 175.43.20.118/sohu\.vodnew\.lxdns\.com.*
 175.43.124.167/sohu\.vodnew\.lxdns\.com.*
 175.43.124.168/sohu\.vodnew\.lxdns\.com.*
 175.43.124.169/sohu\.vodnew\.lxdns\.com.*
 175.43.124.173/sohu\.vodnew\.lxdns\.com.*
+
+{+block{搜狐}}
+hui.sohu.com/mum/ipqueryjp\?.*
 
 {+block{腾讯视频广告}}
 101.71.72.4
