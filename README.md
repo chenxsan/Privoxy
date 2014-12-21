@@ -14,7 +14,9 @@ easy* 列表根据[脚本](http://andrwe.org/scripting/bash/privoxy-blocklist)�
 
 ## openSUSE 下用法
 
-将 README.md 以外的文件下载拷贝到 _/etc/privoxy/_ 或 _/var/lib/privoxy/etc/_ 目录下即可。
+1. 下载配置文件
+2. 将它们拷贝到 _/etc/privoxy/_ 或 _/var/lib/privoxy/etc/_ 目录
+3. `sudo rcprivoxy restart` 重启 Privoxy
 
 ## 关于规则的说明
 
