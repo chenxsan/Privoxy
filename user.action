@@ -308,6 +308,10 @@ ads.twitter.com
 101.71.5.16/sohu.*
 101.71.5.17/sohu.*
 
+119.39.234.39/sohu.*\.mp4.*
+119.39.234.40/sohu.*\.mp4.*
+119.39.234.42/sohu.*\.mp4.*
+
 121.29.0.16/sohu.*
 
 122.141.224.203/sohu.*
@@ -321,6 +325,13 @@ ads.twitter.com
 
 {+block{搜狐}}
 hui.sohu.com/mum/ipqueryjp\?.*
+
+{+block{pptv}}
+asimgs.pplive.cn/imgs/materials/.*\.flv
+112.90.37.104
+112.90.37.108
+
+218.26.242.30
 
 {+block{腾讯视频广告}}
 101.71.72.4
