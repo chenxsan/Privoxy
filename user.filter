@@ -84,3 +84,6 @@ s|</head>|<style type=text/css>\#ads,\#topImgAd{display: none !important;}</styl
 
 FILTER: blockBaiduCproAd 去除百度联盟广告
 s|</head>|<style type=text/css>[id^="cproIframe"]{display: none !important;}</style></head>|g
+
+FILTER: blockQiyiAd 去除爱奇艺视频广告
+s|"ad_str"|"fuck_ad_str"|g

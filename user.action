@@ -209,6 +209,10 @@ dict.youdao.com
 {+filter{blockBaiduCproAd}}
 .bukade.com
 
+# 清理爱奇艺视频广告
+{+filter{blockQiyiAd}}
+iface2.iqiyi.com
+
 # 清理乐视视频广告
 {+block{乐视广告}}
 36.250.7.161
@@ -297,6 +301,7 @@ ads.twitter.com
 101.71.4.8/sohu.*
 101.71.4.18/sohu.*
 
+101.71.5.5/sohu.*
 101.71.5.6/sohu.*
 101.71.5.9/sohu.*
 101.71.5.10/sohu.*
@@ -369,6 +374,3 @@ cpro.baidustatic.com
 .crunchyroll.com/.*LogAdSlot.*
 .crunchyroll.com/vast\?type=website_house
 
-{+block{}}
-iface.iqiyi.com/api/getNewAdInfo.*
-ifacelog.iqiyi.com/adPingBacks
