@@ -224,7 +224,7 @@ iface2.iqiyi.com
 36.250.66.41
 
 # 垃圾采集站
-{+block{一些采集别人内容打自己广告的垃圾站点}}
+{+block{垃圾站}}
 .111cn.net
 
 {+block{土豆网视频广告}}
@@ -286,8 +286,6 @@ iface2.iqiyi.com
 182.118.6.111/youku/.*\.flv$
 182.118.6.112/youku/.*\.flv$
 
-{-block{Some site}}
-ads.twitter.com
 
 {+block{搜狐视频广告}}
 36.250.10.3/sohu.*
@@ -363,9 +361,6 @@ lb.gtimg.com/qqlive/.*\.swf$
 {+block{有道词典广告}}
 .ydstatic.com/.*product=adpublish.*
 
-{-block{arcgis}}
-.arcgis.com
-
 {+block{百度联盟广告}}
 ubmcmm.baidustatic.com
 cpro.baidustatic.com
@@ -374,3 +369,15 @@ cpro.baidustatic.com
 .crunchyroll.com/.*LogAdSlot.*
 .crunchyroll.com/vast\?type=website_house
 
+{+block{乐视 iOS 视频广告}}
+n.mark.letv.com/m3u8api/
+
+
+
+
+######################################################
+#     白名单     #
+#####################################################
+{-block}
+.arcgis.com
+ads.twitter.com
