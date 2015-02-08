@@ -212,6 +212,7 @@ dict.youdao.com
 # 清理爱奇艺视频广告
 {+filter{blockQiyiAd}}
 iface2.iqiyi.com
+data.video.qiyi.com/videos/other/.*\.f4v.*
 
 # 清理乐视视频广告
 {+block{乐视广告}}
@@ -289,6 +290,7 @@ iface2.iqiyi.com
 
 {+block{搜狐视频广告}}
 36.250.10.3/sohu.*
+36.250.10.9/sohu.*
 36.250.10.10/sohu.*
 
 60.28.168.53/sohu.*
@@ -311,6 +313,7 @@ iface2.iqiyi.com
 101.71.5.16/sohu.*
 101.71.5.17/sohu.*
 
+119.39.234.35/sohu.*\.mp4.*
 119.39.234.39/sohu.*\.mp4.*
 119.39.234.40/sohu.*\.mp4.*
 119.39.234.42/sohu.*\.mp4.*
