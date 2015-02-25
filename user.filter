@@ -87,3 +87,6 @@ s|</head>|<style type=text/css>[id^="cproIframe"]{display: none !important;}</st
 
 FILTER: blockQiyiAd 去除爱奇艺视频广告
 s|"ad_info"|"fuck_ad_info"|g
+
+FILTER: showZhiHuAnswers 显示全部知乎答案
+s|</head>|<style type=text/css>.zm-item-answer + .zm-item-answer .fixed-summary, .awesome-answer-list .fixed-summary{max-height:10000em !important;}</style></head>|g
