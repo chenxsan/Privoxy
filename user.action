@@ -237,6 +237,10 @@ data.video.qiyi.com/videos/other/.*\.f4v.*
 27.221.48.215/youku/.*\.flv$
 
 61.158.246.41/youku/.*\.flv$
+61.158.246.42/youku/.*\.flv$
+61.158.246.43/youku/.*\.flv$
+61.158.246.44/youku/.*\.flv$
+61.158.246.45/youku/.*\.flv$
 61.158.246.46/youku/.*\.flv$
 
 119.167.128.13/youku/.*\.flv$
@@ -268,6 +272,9 @@ data.video.qiyi.com/videos/other/.*\.f4v.*
 182.118.6.20/youku/.*\.flv$
 182.118.6.25/youku/.*\.flv$
 182.118.6.42/youku/.*\.flv$
+182.118.6.43/youku/.*\.flv$
+182.118.6.44/youku/.*\.flv$
+182.118.6.45/youku/.*\.flv$
 182.118.6.46/youku/.*\.flv$
 182.118.6.47/youku/.*\.flv$
 182.118.6.48/youku/.*\.flv$
@@ -303,44 +310,23 @@ data.video.qiyi.com/videos/other/.*\.f4v.*
 
 36.250.10.7/sohu.*\.flv$
 
-61.158.246.11/youku/.*\.flv$
-61.158.246.12/youku/.*\.flv$
-61.158.246.15/youku/.*\.flv$
-61.158.246.17/youku/.*\.flv$
-61.158.246.18/youku/.*\.flv$
-61.158.246.22/youku/.*\.flv$
-61.158.246.43/youku/.*\.flv$
-61.158.246.45/youku/.*\.flv$
-61.158.246.49/youku/.*\.flv$
-61.158.246.50/youku/.*\.flv$
-61.158.246.52/youku/.*\.flv$
-61.158.246.54/youku/.*\.flv$
+61.158.246.*/youku/.*\.flv$
 
+119.167.128.13/youku/.*\.flv$
+119.167.128.14/youku/.*\.flv$
+119.167.128.15/youku/.*\.flv$
 119.167.128.16/youku/.*\.flv$
 119.167.128.25/youku/.*\.flv$
 119.167.128.31/youku/.*\.flv$
 119.167.128.37/youku/.*\.flv$
 119.167.128.201/youku/.*\.flv$
 
-119.167.129.11/youku/.*\.flv$
-119.167.129.21/youku/.*\.flv$
+119.167.129.*/youku/.*\.flv$
 
 119.188.38.15/youku/.*\.flv$
 119.188.38.24/youku/.*\.flv$
 
-182.118.6.13/youku/.*\.flv$
-182.118.6.16/youku/.*\.flv$
-182.118.6.21/youku/.*\.flv$
-182.118.6.48/youku/.*\.flv$
-182.118.6.71/youku/.*\.flv$
-182.118.6.74/youku/.*\.flv$
-182.118.6.78/youku/.*\.flv$
-182.118.6.80/youku/.*\.flv$
-182.118.6.107/youku/.*\.flv$
-182.118.6.110/youku/.*\.flv$
-182.118.6.111/youku/.*\.flv$
-182.118.6.112/youku/.*\.flv$
-
+182.118.6.*/youku/.*\.flv$
 
 {+block{搜狐视频广告}}
 36.250.10.3/sohu.*
