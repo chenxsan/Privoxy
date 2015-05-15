@@ -20,7 +20,7 @@ easy* 列表是根据[脚本](http://andrwe.org/scripting/bash/privoxy-blocklist
 ## Mac OS 下用法
 
 1. 下载配置文件
-2. 复制到 /usr/loca/etc/privoxy 目录下
+2. 复制到 /usr/local/etc/privoxy 目录下
 3. 重启 Privoxy
 
 ## 规则共享
