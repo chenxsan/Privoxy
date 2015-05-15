@@ -237,12 +237,18 @@ data.video.qiyi.com/videos/other/.*\.f4v.*
 27.221.31.12/youku/.*\.flv$
 27.221.48.215/youku/.*\.flv$
 
+61.142.132.*/youku/.*\.flv$
+
 61.158.246.41/youku/.*\.flv$
 61.158.246.42/youku/.*\.flv$
 61.158.246.43/youku/.*\.flv$
 61.158.246.44/youku/.*\.flv$
 61.158.246.45/youku/.*\.flv$
 61.158.246.46/youku/.*\.flv$
+
+119.147.103.*/youku/.*\.flv$
+
+119.147.157.*/youku/.*\.flv$
 
 119.167.128.13/youku/.*\.flv$
 119.167.128.38/youku/.*\.flv$
