@@ -74,7 +74,7 @@
 # 
 #################################################################################
 FILTER: blockBaiduAd 去除百度推广广告
-s|</body>|<style type=text/css>\#content_left>table,\#content>*:not(.c-container),[id*='00'],\#ec_im_container,\#ec_im_container+div,.ad-block,.EC_zwd_table{display: none !important;}</style></body>|g
+s|</body>|<style type=text/css>\#content_left>div>a[href^="http://e.baidu.com/?refer"],\#content_left>table,\#content>*:not(.c-container),[id*='00'],\#ec_im_container,\#ec_im_container+div,.ad-block,.EC_zwd_table{display: none !important;}</style></body>|g
 s|if\(c=="div"\)|if\(c==="fuck"\)|g
 s|if\(c=="table"\)|if\(c==="fuck"\)|g
 s|id="ec_im_container"|style="display:none !important;"|g
