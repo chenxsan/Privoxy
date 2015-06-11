@@ -26,3 +26,7 @@ easy* 列表是根据[脚本](http://andrwe.org/scripting/bash/privoxy-blocklist
 ## 规则共享
 
 这些文件根据我个人浏览网页的习惯配置，不一定适用所有人。如有需要，请 fork 然后自定义。如果某些规则可共享，欢迎提 pull request。
+
+## HTTPS 的情况
+
+Privoxy 不支持 HTTPS 链接的过滤，推荐使用 [Greasemonkey](http://www.greasespot.net/) 一类工具。
