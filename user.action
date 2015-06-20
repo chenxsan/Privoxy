@@ -199,7 +199,7 @@ www.example.com/nasty-ads/sponsor.gif
 
 # 清理百度推广广告
 {+filter{blockBaiduAd}}
-.baidu.com
+www.baidu.com
 
 # 清理有道词典广告
 {+filter{blockYoudaoAd}}
@@ -213,6 +213,8 @@ dict.youdao.com
 {+filter{blockQiyiAd}}
 iface2.iqiyi.com
 data.video.qiyi.com/videos/other/.*\.f4v.*
+36.250.67.14/videos/other/.*\.f4v.*
+36.250.80.27/videos/other/.*\.f4v.*
 
 # 显示知乎全部答案
 {+filter{showZhiHuAnswers}}
@@ -234,6 +236,8 @@ data.video.qiyi.com/videos/other/.*\.f4v.*
 .111cn.net
 
 {+block{土豆网视频广告}}
+23.236.121.*/youku/.*\.flv$
+
 27.221.31.12/youku/.*\.flv$
 27.221.48.215/youku/.*\.flv$
 
@@ -405,6 +409,8 @@ asimgs.pplive.cn/imgs/materials/.*\.flv
 101.71.72.19
 101.71.72.20
 101.71.72.21
+
+203.205.148.*
 
 lb.gtimg.com/qqlive/.*\.swf$
 
