@@ -5,14 +5,14 @@ Privoxy
 
 文件名|作用
 ---|---
-user.action|用户定义的 action 文件 
-user.filter|用户定义的 filter 文件
+user.action|自定义的 action 文件 
+user.filter|自定义的 filter 文件
 
 # 用法
 
 1. `cd` 到 Privoxy 的配置目录，比如 openSUSE 的 `/etc/privoxy/` 或 Mac OS 的 `/usr/local/etc/privoxy`
 2. `mkdir else` 创建一个 `else` 目录
-3. 如果有权限问题，请执行：
+3. 如果 `else` 目录有权限问题，请执行：
 
         sudo chown -R `whoami` else
     将 `else` 目录的所有者修改为当前用户。
@@ -24,6 +24,7 @@ user.filter|用户定义的 filter 文件
     filterfile else/user.filter
     ```
 5. 你可能还需要重启 Privoxy
+6. 往后若是要更新我的配置：`git pull`
 
 ## 规则共享
 
