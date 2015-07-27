@@ -15,7 +15,7 @@ user.filter|用户定义的 filter 文件
 3. 如果有权限问题，请执行：
 
         sudo chown -R `whoami` else
-    将 else 目录的所有者修改为当前用户。
+    将 `else` 目录的所有者修改为当前用户。
 4. `cd else`
 4. `git clone https://github.com/chenxsan/Privoxy.git .`
 5. 重启 Privoxy
