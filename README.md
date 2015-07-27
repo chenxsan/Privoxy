@@ -13,6 +13,7 @@ user.filter|用户定义的 filter 文件
 1. `cd` 到 Privoxy 的配置目录，比如 openSUSE 的 `/etc/privoxy/` 或 Mac OS 的 `/usr/local/etc/privoxy`
 2. `mkdir else` 创建一个 `else` 目录
 3. 如果有权限问题，请执行：
+
         sudo chown -R `whoami` else
 4. `cd else`
 4. `git clone https://github.com/chenxsan/Privoxy.git .`
