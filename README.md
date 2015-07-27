@@ -26,7 +26,7 @@ Privoxy
     filterfile else/user.filter
     ```
 5. 可能还需要重启 Privoxy
-6. 往后更新此配置文件只需要执行 `git pull`
+6. 往后更新此配置文件只需要进入 `else` 目录执行 `git pull`
 
 ## 规则共享
 
