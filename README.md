@@ -3,10 +3,8 @@ Privoxy
 
 这是我自定义的 Privoxy 配置文件，包括以下文件：
 
-文件名|作用
----|---
-user.action|自定义的 action 文件 
-user.filter|自定义的 filter 文件
+1. user.action
+2. user.filter
 
 # 用法
 
