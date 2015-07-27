@@ -18,7 +18,12 @@ user.filter|用户定义的 filter 文件
     将 `else` 目录的所有者修改为当前用户。
 4. `cd else`
 4. `git clone https://github.com/chenxsan/Privoxy.git .`
-5. 重启 Privoxy
+5. 打开 Privoxy 的主配置文件 `config`，在文件最后添加以下两行：
+    ```
+    actionsfile else/user.action
+    filterfile else/user.filter
+    ```
+5. 你可能还需要重启 Privoxy
 
 ## 规则共享
 
