@@ -1,27 +1,24 @@
 Privoxy
 =======
 
-这是我自用的 Privoxy 配置文件库，包括以下文件：
+这是我自定义的 Privoxy 配置文件，包括以下文件：
 
 文件名|作用
 ---|---
 user.action|用户定义的 action 文件 
 user.filter|用户定义的 filter 文件
-easy* 系列文件|脚本生成的 action/filter 文件
 
-easy* 列表是根据[脚本](http://andrwe.org/scripting/bash/privoxy-blocklist)自动生成，[具体要用哪些](https://easylist.adblockplus.org/en/)请根据自己情况补充或删减。
+# 用法
 
-## openSUSE 下用法
+1. `cd` 到 Privoxy 的配置目录，比如 openSUSE 的 `/etc/privoxy/` 或 Mac OS 的 `/usr/local/etc/privoxy`
+2. `mkdir else` 创建一个 `else` 目录
+3. 如果有权限问题，请执行：
 
-1. 下载配置文件
-2. 将它们拷贝到 _/etc/privoxy/_ 或 _/var/lib/privoxy/etc/_ 目录
-3. `sudo rcprivoxy restart` 重启 Privoxy
+    sudo chown -R `whoami` else
 
-## Mac OS 下用法
-
-1. 下载配置文件
-2. 复制到 /usr/local/etc/privoxy 目录下
-3. 重启 Privoxy
+4. `cd else`
+4. `git clone https://github.com/chenxsan/Privoxy.git .`
+5. 重启 Privoxy
 
 ## 规则共享
 
