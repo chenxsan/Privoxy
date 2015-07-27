@@ -19,6 +19,7 @@ user.filter|自定义的 filter 文件
 4. `cd else`
 4. `git clone https://github.com/chenxsan/Privoxy.git .`
 5. 打开 Privoxy 的主配置文件 `config`，在文件最后添加以下两行：
+
     ```
     actionsfile else/user.action
     filterfile else/user.filter
