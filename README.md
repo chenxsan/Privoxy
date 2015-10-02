@@ -34,4 +34,4 @@ Privoxy
 
 ## HTTPS 的情况
 
-Privoxy 不支持 HTTPS 链接的过滤，推荐使用 [Greasemonkey](http://www.greasespot.net/) 一类工具。
+Privoxy 仅支持 HTTPS 链接 [host 部分的过滤](http://www.privoxy.org/faq/misc.html#AEN909)，需要更细的定制的话，推荐使用 [Greasemonkey](http://www.greasespot.net/) 一类工具。
