@@ -23,6 +23,11 @@ data.video.qiyi.com/videos/other/.*\.f4v.*
 {+filter{showZhiHuAnswers}}
 .zhihu.com
 
+# 清理 sohu 视频广告
+{+filter{rmSohuAD}}
+js.tv.itc.cn/base/core/gg_f24973\.js$
+js.tv.itc.cn/gg\.seed\.js$
+
 # 清理乐视视频广告
 {+block{乐视广告}}
 36.250.5.*
@@ -256,6 +261,10 @@ n.mark.letv.com/m3u8api/
 36.250.67.11/.*\.f4v
 119.188.24.202/.*\.f4v
 157.122.96.38/.*\.f4v
+
+{+block{else}}
+gg.jtertp.com
+goods.tudou.com
 
 
 
