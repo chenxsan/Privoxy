@@ -35,3 +35,7 @@ Privoxy
 ## HTTPS 的情况
 
 Privoxy 仅支持 HTTPS 链接 [host 部分的过滤](http://www.privoxy.org/faq/misc.html#AEN909)，需要更细的定制的话，推荐使用 [Greasemonkey](http://www.greasespot.net/) 一类工具。
+
+## 效果
+
+1. 在土豆看银魂动画基本不会碰上视频广告
