@@ -51,6 +51,7 @@ js.tv.itc.cn/gg\.seed\.js$
 27.221.48.*/youku/.*\.mp4$
 
 27.221.98.*/youku/.*\.mp4$
+27.221.98.*/youku/.*\.flv
 
 61.142.132.*/youku/.*\.flv$
 
@@ -127,6 +128,8 @@ js.tv.itc.cn/gg\.seed\.js$
 182.118.6.113/youku/.*\.flv$
 182.118.6.115/youku/.*\.flv$
 
+218.205.72.*/youku/.*\.flv$
+
 # 屏蔽迅雷看看视频广告
 {+block{kankan}}
 20141025.float.sandai.net
@@ -168,6 +171,8 @@ data.vod.itc.cn/.*prod=ad.*\.mp4$
 36.250.10.3/sohu.*
 36.250.10.9/sohu.*
 36.250.10.10/sohu.*
+
+58.240.173.41/sohu.*\.mp4.*
 
 60.18.224.62/sohu.*\.mp4.*
 
