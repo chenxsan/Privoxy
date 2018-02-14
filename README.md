@@ -10,7 +10,7 @@
 {+block +handle-as-image +set-image-blocker{https://upload.wikimedia.org/wikipedia/commons/9/98/Audrey_Hepburn_screentest_in_Roman_Holiday_trailer.jpg}}
 /.*\.(jpg|jpeg|png|webp|bmp).*
 ```
-这样，我就把所有 http 协议的图片都替换成奧黛麗·赫本，在浏览器上访问页面时，我会看到如下：
+这样，我就把所有 http 协议的图片都替换成奥黛丽·赫本，在浏览器上访问页面时，我会看到如下：
 
 ![赫本](images/replace-image-with-hepburn.png)
 
@@ -24,4 +24,4 @@
 
 ## 图片许可说明
 
-关于图片使用许可，请见 [Wikipedia 说明](https://upload.wikimedia.org/wikipedia/commons/9/98/Audrey_Hepburn_screentest_in_Roman_Holiday_trailer.jpg)。
+关于奥黛丽·赫本图片使用许可，请见 [Wikipedia 说明](https://upload.wikimedia.org/wikipedia/commons/9/98/Audrey_Hepburn_screentest_in_Roman_Holiday_trailer.jpg)。
