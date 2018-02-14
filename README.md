@@ -1,41 +1,27 @@
-Privoxy
-=======
+# Privoxy 与奧黛麗·赫本
 
-这是我自用的 Privoxy 配置文件，主要包括两个文件：
+这是我的一个试验。
 
-1. user.action
-2. user.filter
+如果你不熟悉 Privoxy，那么你只要知道[它能替换 http 协议的图片](https://blog.zfanw.com/block-webpage-ad-with-privoxy/)就好。
 
-# 用法
+这一条 Privoxy 规则非常简单：
 
-1. `cd` 到 Privoxy 的配置目录， 
+```
+{+block +handle-as-image +set-image-blocker{https://upload.wikimedia.org/wikipedia/commons/9/98/Audrey_Hepburn_screentest_in_Roman_Holiday_trailer.jpg}}
+/.*\.(jpg|jpeg|png).*
+```
+这样，我就把所有 http 协议的图片都替换成奧黛麗·赫本，在浏览器上访问页面时，我会看到如下：
 
-    * openSUSE: `/etc/privoxy/` 
-    * Mac OS: `/usr/local/etc/privoxy`
-2. `mkdir else` 创建一个 `else` 目录
-3. 新创建的 `else` 目录通常会有权限问题，请执行：
+![赫本](images/replace-image-with-hepburn.png)
 
-        sudo chown -R `whoami` else
-    将 `else` 目录所有者修改为当前用户。
-4. `cd else` 切换到 `else` 目录
-4. `git clone https://github.com/chenxsan/Privoxy.git .` 将配置文件克隆一份到 `else` 目录
-5. 打开 Privoxy 的主配置文件 `config`，在文件最后添加以下两行：
+![赫本](images/replace-img-with-hepburn.png)
 
-    ```
-    actionsfile else/user.action
-    filterfile else/user.filter
-    ```
-5. 可能还需要重启 Privoxy
-6. 往后更新此配置文件只需要进入 `else` 目录执行 `git pull`
+这意味着什么？这意味着，这些站点的图片还在使用 http 协议，而不是 https。
 
-## 规则共享
+## 图片提交
 
-这些文件根据我个人浏览网页的习惯配置，不一定适用所有人。如有需要，请 fork 然后自定义。如果某些规则可共享，欢迎提 pull request。
+如果你也使用 Privoxy，欢迎试用前面的规则，也欢迎提交有趣的图片。
 
-## HTTPS 的情况
+## 图片许可说明
 
-Privoxy 仅支持 HTTPS 链接 [host 部分的过滤](http://www.privoxy.org/faq/misc.html#AEN909)，需要更细的定制的话，推荐使用 [Greasemonkey](http://www.greasespot.net/) 一类工具。
-
-## 效果
-
-1. 在土豆看银魂动画基本不会碰上视频广告
+关于图片使用许可，请见 [Wikipedia 说明](https://upload.wikimedia.org/wikipedia/commons/9/98/Audrey_Hepburn_screentest_in_Roman_Holiday_trailer.jpg)。
