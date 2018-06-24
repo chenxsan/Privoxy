@@ -1,4 +1,4 @@
-如果你找的是 Privoxy 配置文件 - 请查看旧[历史文件](https://github.com/chenxsan/Privoxy/tree/1ad6281701d639c2ff6802fd625a565dda1de810)，请注意，我已不再维护。
+如果你找的是 Privoxy 配置文件 - 请查看旧[历史文件](https://github.com/chenxsan/Privoxy/tree/1ad6281701d639c2ff6802fd625a565dda1de810)，不过还请注意，我已不维护它们了。
 
 # Privoxy 与奥黛丽·赫本
 
