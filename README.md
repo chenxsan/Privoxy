@@ -1,6 +1,8 @@
+如果你找的是 Privoxy 配置文件 - 请查看旧[历史文件](https://github.com/chenxsan/Privoxy/tree/c827fb171820205d4337203926446e4f42f2d5a5)。
+
 # Privoxy 与奥黛丽·赫本
 
-这是我的一个关于 http 的试验。
+这是一个关于 http 的试验。
 
 如果你不熟悉 Privoxy，那么你只要知道[它能替换 http 协议的图片](https://blog.zfanw.com/block-webpage-ad-with-privoxy/)就好。
 
@@ -16,11 +18,7 @@
 
 ![赫本](images/replace-img-with-hepburn.png)
 
-这意味着什么？这意味着，这些站点的图片还在使用 http 协议，而不是 https。
-
-## 图片提交
-
-如果你也用 Privoxy，欢迎试用该规则，也欢迎提交你在试用过程中发现的有趣图片。
+是了，所有这些站点图片都还在使用 http 协议，而不是 https。
 
 ## 图片许可说明
 
